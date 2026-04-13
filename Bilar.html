@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bilar</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <h1 class="mb-3">Alla bilar</h1>
+
+    <input class="form-control mb-4" type="text" id="search" placeholder="Sök bil...">
+
+    <div class="row" id="cars">
+
+
+        <div class="col-md-4 car">
+            <div class="card h-100 shadow-sm">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="BMW 320">
+                <div class="card-body">
+                    <h5 class="card-title">BMW 320</h5>
+                    <p class="card-text">År: 2018</p>
+                    <p class="card-text">Pris: 120 000 kr</p>
+                    <button class="btn btn-primary w-100">Se mer</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 car">
+            <div class="card h-100 shadow-sm">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Volvo V70">
+                <div class="card-body">
+                    <h5 class="card-title">Volvo V70</h5>
+                    <p class="card-text">År: 2015</p>
+                    <p class="card-text">Pris: 85 000 kr</p>
+                    <button class="btn btn-primary w-100">Se mer</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audi -->
+        <div class="col-md-4 car">
+            <div class="card h-100 shadow-sm">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Audi A4">
+                <div class="card-body">
+                    <h5 class="card-title">Audi A4</h5>
+                    <p class="card-text">År: 2017</p>
+                    <p class="card-text">Pris: 135 000 kr</p>
+                    <button class="btn btn-primary w-100">Se mer</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="filter.js"></script>
+</body>
+</html>
