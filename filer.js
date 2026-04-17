@@ -1,14 +1,6 @@
-document.getElementById("search").addEventListener("keyup", function() {
-    let filter = this.value.toLowerCase();
-    let cars = document.querySelectorAll(".car");
-
-    cars.forEach(car => {
-        let text = car.textContent.toLowerCase();
-
-        if (text.includes(filter)) {
-            car.style.display = "";
-        } else {
-            car.style.display = "none";
-        }
+document.getElementById("search").addEventListener("keyup", function () {
+    let value = this.value.toLowerCase();
+    document.querySelectorAll(".car").forEach(car => {
+        car.style.display = car.textContent.toLowerCase().includes(value) ? "" : "none";
     });
 });
