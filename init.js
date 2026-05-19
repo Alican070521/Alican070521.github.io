@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div class="collapse navbar-collapse" id="nav">
           <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Hem</a>
             <a class="nav-link" href="bilar.html">Bilar</a>
             <a class="nav-link" href="galleri.html">Galleri</a>
-            <a class="nav-link" href="om.html">Om oss</a>
             <a class="nav-link" href="kontakt.html">Kontakt</a>
           </div>
         </div>
